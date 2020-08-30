@@ -16,6 +16,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <pl.gdgwroclaw.workshop.styles.TrafficLightView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:color="@color/purple_200"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
