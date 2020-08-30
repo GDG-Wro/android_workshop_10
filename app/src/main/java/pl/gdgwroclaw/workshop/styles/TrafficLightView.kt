@@ -11,10 +11,9 @@ import kotlin.properties.Delegates
 class TrafficLightView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = 0,
-    defStyleRes: Int = 0
+    defStyleAttr: Int = R.attr.trafficLightViewStyle,
+    defStyleRes: Int = R.style.TrafficLightView_Green
 ) : View(context, attrs, defStyleAttr, defStyleRes) {
-
     @get:ColorInt
     private var color by Delegates.notNull<Int>()
 
