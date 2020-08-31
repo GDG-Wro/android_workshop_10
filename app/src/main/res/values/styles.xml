@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LoremIpsum" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5</item>
+    </style>
+</resources>
